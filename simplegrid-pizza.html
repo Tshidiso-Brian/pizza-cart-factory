@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel= "stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 center">
+                <h1>Perfect Pizza</h1>
+                
+
+            </div>
+
+        </div>
+
+      <!-- <div class="row">
+            <div class="col- center">
+               <table>
+                 <tr>
+                    <td>Small</td>
+                    <td><button class="buttons button1">+</button></td>
+                    <td><button class="buttons button2">-</button></td>
+                    <td>Price</td>
+                 </tr>
+                 <tr>
+                    <td>Small</td>
+                    <td><button class="buttons button1">+</button></td>
+                    <td><button class="buttons button2">-</button></td>
+                    <td>Price</td>
+                 </tr>
+                 <tr>
+                    <td>Small</td>
+                    <td><button class="buttons button1">+</button></td>
+                    <td><button class="buttons button2">-</button></td>
+                    <td>Price</td>
+                 </tr>
+                 <tr>
+                    <td>Total Cost</td>
+                    <td></td>
+                    <td></td>
+                    <td>Price</td>
+                 </tr>
+               
+
+               </table>
+
+            </div>
+
+        </div> -->
+
+        <div class="row">
+            <div class="col-5 right">
+                <div>
+                    Small
+                </div>
+            </div>
+            <div class="col-1 right ">
+
+                <button class="circleButton plusButton1" type="button" name="button">+</button>
+
+            </div>
+            <div class="col-1 left">
+
+                <button class="sqButton minusButton1">-</button>
+
+            </div>
+            <div class="col-5 left">
+                <div>
+                    <span class="smallTotalOne">0.00</span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-5 right">
+                <div>
+                    Medium
+                </div>
+            </div>
+            <div class="col-1 right ">
+
+                <button class="circleButton plusButton2">+</button>
+
+            </div>
+            <div class="col-1 left">
+
+                <button class="sqButton minusButton2">-</button>
+
+            </div>
+            <div class="col-5 left">
+                <div>
+                    <span class="mediumTotalOne">0.00</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-5 right">
+                <div>
+                    Large
+                </div>
+            </div>
+            <div class="col-1 right ">
+
+                <button class="circleButton plusButton3">+</button>
+
+            </div>
+            <div class="col-1 left">
+
+                <button class="sqButton minusButton3">-</button>
+
+            </div>
+            <div class="col-5 left">
+                <div>
+                    <span class="largeTotalOne">0.00</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-5 right">
+                <div>
+                    Total Cost
+                </div>
+            </div>
+            <div class="col-1 right ">
+
+            </div>
+            <div class="col-1 left">
+
+            </div>
+            <div class="col-5 left">
+                <div>
+                    <span class="grandTotalOne">0.00</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 center">
+                <button class="checkoutButton hidden" >Checkout</button>
+            </div>  
+        </div>
+
+
+
+        <div class="row1 hidden">
+            <div class="col-12 center">
+                
+                <h3>Payment amount: </h3>
+
+                <div>
+        
+                <input type="text" name="" value="" class="Payments">
+
+            </div>
+
+                 <button class="payButton">Purchase</button> 
+                
+                </div>
+
+            </div>
+
+        <div class="row2 hidden">
+            <div class="col-12 center">
+                    
+                 <h1>Enjoy your Pizzas!😊</h1>
+            </div>
+         </div>
+
+
+         
+        <div class="row3 hidden">
+            <div class="col-12 center">
+                    
+                 <h1>Sorry! that is not enough money ☹</h1>
+            </div>
+         </div>
+
+         <div class="row4 hidden">
+            <div class="col-12 center">
+                    
+                 <h1>Please enter an Amount</h1>
+            </div>
+         </div>
+    
+
+
+
+        <div class="row">
+            <div class="col-4 center pizza-info">
+                <!-- This content will take up 3/12 (or 1/4) of the container -->
+                <h2>Small Pizza</h2>
+                <img src="Pizza Image.png" width="150">
+                <h3>R68.00</h3>
+                <div>
+                    Tshidiso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo
+                    consequat.
+                </div>
+                <div class="col-12 center">
+
+                    <button class="buyButton1 buyButton" type="button" name="button" >Buy</button>
+    
+                </div>
+            </div>
+            <div class="col-4 center pizza-info">
+                <!-- This content will take up 3/12 (or 1/4) of the container -->
+                <h2>Medium Pizza</h2>
+                <img src="Pizza Image.png" width="150">
+                <h3>R89.00</h3>
+
+                <div>
+                    Tshidiso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo
+                    consequat.
+                </div>
+                <div class="col-12 center">
+
+                    <button class="buyButton2 buyButton">Buy</button>
+    
+                </div>
+            </div>
+            <div class="col-4 center pizza-info">
+                <!-- This content will take up 6/12 (or 1/2) of the container -->
+                <h2>Large Pizza</h2>
+                <img src="Pizza Image.png" width="150">
+                <h3>R129.00</h3>
+                <div>
+                    Tshidiso Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo
+                    consequat.
+                </div>
+                <div class="col-12 center">
+
+                    <button class="buyButton3 buyButton">Buy</button>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 contacts center">
+                <h2>Contact details</h2>
+                Contact us at: 0117468956 info@perfectpizza.co.za
+            </div>
+
+        </div>
+    </div>
+    <script src="pizzaCartFactory.js"></script>
+    <script src="pizzaCart.js" charset="utf-8"></script>
+</body>
+
+</html>
